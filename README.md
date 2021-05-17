@@ -25,7 +25,7 @@ IntelliJ IDEA（简称 IDEA），是 Java 语言开发的集成环境，IDEA 在
 
 ## Settings篇
 
-[IDEA2021.1使用手册-Settings之Appearance & Behavior ,KeyMap] ("https://blog.csdn.net/qq_41316955/article/details/116855191")
+[IDEA2021.1使用手册-Settings之Appearance & Behavior,KeyMap]("https://blog.csdn.net/qq_41316955/article/details/116855191")
 
-[IDEA2021.1使用手册-Settings之Editor]()
+[IDEA2021.1使用手册-Settings之Editor]("")
 
