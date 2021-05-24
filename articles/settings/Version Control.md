@@ -99,6 +99,64 @@ issue导航
 **Change Shelves Location**: 切换git搁置文件的存放位置
 
 # 8、Git
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210610225640986.png)
+
+**1: 选择GIt的可执行路径,勾选复现框为仅为当前项目设置此路径;如果要为不同的项目使用不同的路径，并且不希望全局应用此设置，请选择此选项。**
+
+**2:启用暂存区**:使用暂存区允许您轻松地单独提交对同一文件的更改（包括重叠更改），并查看哪些更改已经暂存
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210610230333346.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMzE2OTU1,size_16,color_FFFFFF,t_70)
+
+**3:在挑选时自动提交**(挑选樱桃 ):当您挑选一个特定的文件提交时，将显示“**提交更改**”对话框。**如果选择了**在挑选时自动提交选项，则在单击挑选按钮时会静默提交选定的提交樱桃选择按钮，而**不会显示“提交更改”对话框**。
+
+4:在选择提交推送到**受保护分支时**添加“cherry-picked from <hash>”后缀:默认不加
+
+**5.如果即将提交 CRLF(换行) 行分隔符，则发出警告**
+
+**6.在分离的 HEAD 中或在 rebase 期间提交时发出警告**
+
+**7,	如果启用此选项**，IntelliJ IDEA **将检查是否存在尚未提取到本地存储库的待处理传入提交**，并将在分支弹出窗口中标记此类分支。
+- 选择您希望 IntelliJ IDEA 如何查询远程以检查传入的提交：
+
+- Auto：如果使用 HTTP 或 Git 协议访问远程，IntelliJ IDEA 将在后台检查更新。如果使用 SSH，则不会执行此检查，以免意外弹出外部身份验证应用程序。
+
+- always：即使使用 SSH 访问远程，IntelliJ IDEA 也会在后台检查更新。
+
+- never：IntelliJ IDEA 不会查询远程提交的传入提交，并且分支弹出窗口中将显示警告，允许您手动运行检查。
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210610233650604.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMzE2OTU1,size_16,color_FFFFFF,t_70)
+
+**1.更新方式**
+- merge:相当于运行git fetch然后git merge, 或git pull --no-rebase。
+- rebase:相当于运行git fetch然后git rebase, or git pull --rebase（所有本地提交都将放在更新的上游头之上）。
+
+**2.	选择您希望在执行项目更新时如何处理未提交的更改：**
+- Stash：本地更改将保存到git stash。如果您需要在 IntelliJ IDEA 之外应用带有隐藏更改的补丁，这将非常有用，因为它们是由 Git 本身生成的。
+
+- 搁置：IntelliJ IDEA 会将本地更改放到搁置中。搁置由 IntelliJ IDEA 完成，搁置更改生成的补丁通常应用在 IntelliJ IDEA 中。
+
+**3:如果当前分支的push被拒绝，则自动更新当前分支:**
+- 如果您希望在push从当前分支到其跟踪分支的操作​​被拒绝时自动更新当前分支，请选中此复选框。
+
+- 如果取消选择此选项，当推送分支被拒绝时，IntelliJ IDEA 将显示推送拒绝对话框，因为您的本地存储库和远程存储不同步。
+
+- 请注意以下事项：
+
+- 如果您之前从未见过Push Rejected对话框并且您最初启用了该复选框，IntelliJ IDEA 将通过merge操作静默更新冲突的本地分支。
+
+- 如果您已经遇到Push Rejected对话框并选择了记住更新方法选择...选项，IntelliJ IDEA 会保存您的最后一个选择，rebase或者merge将应用它以静默方式更新冲突的本地分支。
+
+- 因此，要更改“记住”设置，清除复选框，访问拒绝推送对话框，选择推送时自动更新...拒绝选项，然后调用另一个更新策略。
+
+**4.为提交和推送显示推送对话框**:如果您希望在单击Commit Changes 对话框中的Commit和 Push后**显示Push 对话框**，请选择此选项。否则，您的更改将自动推送到受影响的存储库。
+
+**5.仅在提交到受保护分支时显示推送对话框**:如果当您在“提交更改”对话框中单击“提交”和“推送”时，您**只希望在推送到受保护分支时显示“推送更改”对话框**，请选择此选项。否则，您的更改将**自动推送**到受影响的存储库。
+
+**6.受保护的分支**:	如果您想禁用对某些分支强制推送更改的功能，请在此处列出它们
+
+**7.使用凭证**:您将能够在Git 登录对话框中使用凭证帮助程序进行身份验证。
+
+**8.按路径过滤更新项目信息**:如果你不想要得到的所有更改项目信息更新信息标签，当你执行更新，您可以通过过滤特定的路径列表。
 # 9、GitHub
 # 10、Mercurial
 # 11、Perforce
