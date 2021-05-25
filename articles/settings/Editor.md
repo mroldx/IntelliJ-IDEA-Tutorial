@@ -94,21 +94,26 @@
 ## 3. Font(字体)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210524232045846.png)
 
-## 4. Color Scheme(配色方案)
+## 4. Color Scheme(代码块配色方案)
 
 ## 5. Code Style(代码风格)
 
-## 6. Inspections
+## 6. Inspections(审查)
 
-## 7. File and Code Templates
-## 8. File Encodings
-## 9. Live Templates
+## 7. File and Code Templates(代码模版)
+## 8. File Encodings(文件编码)
+## 9. Live Templates(实时模版)
 ## 10. File Types
 ## 11. Android Layout Editor
 ## 12. Copyright
-## 13. Inlay Hints
+## 13. Inlay Hints(镶嵌提示)
+可为您提供有关代码的其他信息，例如被调用方法所期望的参数名称。其他类型的提示会通知您有关注释，方法参数，用法等（取决于语言）的信息
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525230323568.png)
+
 ## 14. Duplicates
-## 15. Emmet
+## 15. Emmet(缩写)
+
 ## 16. GUI Designer
 ## 17. Intentions
 ## 18. Language Injections
