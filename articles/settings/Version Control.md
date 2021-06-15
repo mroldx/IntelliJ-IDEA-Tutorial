@@ -158,9 +158,28 @@ issue导航
 
 **8.按路径过滤更新项目信息**:如果你不想要得到的所有更改项目信息更新信息标签，当你执行更新，您可以通过过滤特定的路径列表。
 # 9、GitHub
-# 10、Mercurial
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210615225550226.png)
+此页面指定您的 GitHub 远程存储帐户，如果您还没有，请创建一个 GitHub 帐户。
+
+您可以指定多个帐户并为每个项目设置默认帐户。因此，您不必在每次需要连接到 GitHub 时指定要使用的帐户.
+
+**Clone git repositories using ssh**:	如果要通过安全 SSH 网络协议从 GitHub 传输数据，请选择此选项。
+**Connection timeout**:指定等待建立连接的时间段。
+
+
+# 10、Mercurial(版本控制)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210615225844408.png)
+使用此页面指定要应用于 Mercurial 版本控制下的项目目录的版本控制设置。
+
+
 # 11、Perforce
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210615230028537.png)
+使用此页面指定要应用于 Perforce 控制下的项目目录的版本控制设置
+
+
 # 12、Subversion
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210615230109517.png)
+使用此页面指定要应用于受 Subversion 控制的项目目录的设置
 
 
 
