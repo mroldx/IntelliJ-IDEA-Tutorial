@@ -172,15 +172,3 @@ issue导航
 使用此页面指定要应用于 Mercurial 版本控制下的项目目录的版本控制设置。
 
 
-# 11、Perforce
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210615230028537.png)
-使用此页面指定要应用于 Perforce 控制下的项目目录的版本控制设置
-
-
-# 12、Subversion
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210615230109517.png)
-使用此页面指定要应用于受 Subversion 控制的项目目录的设置
-
-
-
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
